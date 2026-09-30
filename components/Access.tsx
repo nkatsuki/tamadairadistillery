@@ -8,8 +8,8 @@ export default function Access() {
         <Reveal as="h2">新宿から30分。緑と湧水の街へ。</Reveal>
         <div className="access-grid">
           <Reveal as="dl" className="access-info">
-            <div className="access-row"><dt>所在地</dt><dd>東京都日野市多摩平◯丁目<small>詳細な住所・開所日は決まり次第発表します</small></dd></div>
-            <div className="access-row"><dt>電車</dt><dd>JR中央線「豊田」駅から徒歩 約◯分<small>徒歩分数・詳細住所は決まり次第発表します</small></dd></div>
+            <div className="access-row"><dt>所在地</dt><dd>東京都日野市多摩平<small>詳細な住所・開所日は決まり次第発表します</small></dd></div>
+            <div className="access-row"><dt>電車</dt><dd>JR中央線「豊田」駅</dd></div>
             <div className="access-row"><dt>新宿から</dt><dd>約30分<small>京王線特急・JR中央線快速 利用</small></dd></div>
             <div className="access-row"><dt>営業(構想)</dt><dd>試飲バー・ショップ 併設<small>開所後の運営時間は改めてお知らせします</small></dd></div>
           </Reveal>

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import DistilleryMark from './DistilleryMark';
 
 const LINKS = [
   { href: '#concept', label: 'コンセプト' },
@@ -22,6 +23,7 @@ export default function Nav() {
   return (
     <nav className={`site-nav${scrolled ? ' scrolled' : ''}`} aria-label="メインナビゲーション">
       <a className="brand" href="#hero" aria-label="多摩平蒸留所 トップへ">
+        <DistilleryMark className="brand-mark" />
         <span className="brand-jp">多摩平蒸留所</span>
         <span className="brand-en">Tamadaira Distillery</span>
       </a>
