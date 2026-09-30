@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react';
 import Reveal from './Reveal';
 
 export default function ProductPreview() {
@@ -45,6 +46,26 @@ export default function ProductPreview() {
             <p className="timeline">先行リリース予定</p>
           </Reveal>
         </div>
+        <Reveal>
+          <a
+            href="/makoto/"
+            className="makoto-feature"
+            aria-label="誠コレクションの製品紹介を見る"
+          >
+            <span className="makoto-feature-mark" aria-hidden="true">誠</span>
+            <span className="makoto-feature-copy">
+              <span className="makoto-feature-eyebrow">FLAGSHIP SERIES</span>
+              <span className="makoto-feature-title">誠コレクション</span>
+              <span className="makoto-feature-description">
+                新選組のふるさと・日野から生まれる、全12瓶の旗艦シリーズ。
+              </span>
+            </span>
+            <span className="makoto-feature-link">
+              シリーズを見る
+              <ArrowUpRight size={16} strokeWidth={1.5} aria-hidden="true" />
+            </span>
+          </a>
+        </Reveal>
         <p className="note">※ ラベル・デザイン・リリース時期はすべてイメージです。オンラインストア(EC)は開所後に開始予定です。</p>
       </div>
     </section>

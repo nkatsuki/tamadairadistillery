@@ -7,10 +7,12 @@ import News from '@/components/News';
 import Register from '@/components/Register';
 import Access from '@/components/Access';
 import Footer from '@/components/Footer';
+import AgeGate from '@/components/makoto/AgeGate';
 
 export default function Home() {
   return (
     <>
+      <AgeGate variant="distillery" />
       <div className="grain" aria-hidden="true"></div>
       <Nav />
       <Hero />
