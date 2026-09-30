@@ -9,7 +9,7 @@ export default function Hero() {
         <p className="hero-title-sub gold-grad">Tamadaira Distillery</p>
         <div className="hero-rule" aria-hidden="true"></div>
         <p className="hero-sub">
-          新宿から30分、武蔵野台地の緑に抱かれた日野市多摩平へ。<br />
+          新宿から30分、日野台地の緑に抱かれた日野市多摩平へ。<br />
           黒川清流公園の水脈を仕込み水に、街とつながるクラフトウイスキーの蒸留所が生まれます。
         </p>
         <a className="btn" href="#register">最新情報を受け取る<span aria-hidden="true">

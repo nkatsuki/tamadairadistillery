@@ -8,15 +8,15 @@ export default function Concept() {
         <Reveal as="div" className="eyebrow"><span className="dia"></span><span className="en">Concept</span><span className="jp">コンセプト — 緑と水のテロワール</span></Reveal>
         <div className="grid">
           <Reveal>
-            <h2>武蔵野台地の深層から、<br />静かに湧く一滴。</h2>
+            <h2>日野台地の深層から、<br />静かに湧く一滴。</h2>
             <p className="lead">
-              多摩平は、新宿から30分ほどの<strong>武蔵野台地・日野市</strong>に広がる緑豊かな街です。その地下には、東京の名湧水として名高い<strong>黒川清流公園</strong>へつながる清冽な水脈が静かに流れています。<br /><br />
+              多摩平は、新宿から30分ほどの<strong>日野台地・日野市</strong>に広がる緑豊かな街です。その地下には、東京の名湧水として名高い<strong>黒川清流公園</strong>へつながる清冽な水脈が静かに流れています。<br /><br />
               仕込み水にこの地下水を用い、蒸留も熟成(貯蔵)も多摩平の地で。夏の湿気と冬の冷え、四季の寒暖差が樽の中の原酒をゆっくりと育てる — 私たちはそれを<strong>「多摩平テロワール」</strong>と呼んでいます。
             </p>
           </Reveal>
           <Reveal as="figure" className="concept-img" delay={1}>
-            <img src="/img/water.jpg" alt="武蔵野の清流のイメージ" />
-            <figcaption>武蔵野台地の湧水イメージ</figcaption>
+            <img src="/img/water.jpg" alt="日野台地の清流のイメージ" />
+            <figcaption>日野台地の湧水イメージ</figcaption>
           </Reveal>
         </div>
         <div className="elements">
