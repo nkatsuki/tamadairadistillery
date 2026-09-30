@@ -1,0 +1,37 @@
+.makoto-page {
+  background: #f7f3ea;
+  color: #211d19;
+  font-family: var(--font-shippori), "Hiragino Mincho ProN", serif;
+}
+
+.makoto-page .vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.makoto-page .text-ink {
+  color: #211d19;
+}
+
+.makoto-page .bg-ink {
+  background-color: #211d19;
+}
+
+.makoto-page .bg-ink\/80 {
+  background-color: rgb(33 29 25 / 80%);
+}
+
+.makoto-page .border-ink {
+  border-color: #211d19;
+}
+
+.makoto-page .hover\:bg-ink:hover {
+  background-color: #211d19;
+}
+
+.makoto-page .text-gold {
+  color: #a8894e;
+}
+
+.makoto-page .border-gold {
+  border-color: #a8894e;
+}

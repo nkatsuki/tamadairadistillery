@@ -1,35 +1,26 @@
-# 多摩平蒸留所 / Tamadaira Distillery — Teaser Site (Next.js)
+# 多摩平蒸留所 / Tamadaira Distillery
 
-日野市多摩平のクラフトウイスキー蒸留所「多摩平蒸留所」ティザーサイト。
-Next.js (App Router) + TypeScript + Tailwind CSS、静的エクスポート (`output: 'export'`)。
+日野市多摩平のクラフトウイスキー蒸留所「多摩平蒸留所」のサイトです。Next.js App Router + TypeScript + Tailwind CSSで構成し、Azure Static Web Apps向けに静的エクスポートします。
 
-## ローカル開発
+## ローカル開発・ビルド
 
 ```bash
-npm install
+npm ci
 npm run dev      # http://localhost:3000
+npm run build    # 静的サイトを out/ に出力
 ```
 
-## ビルド(静的エクスポート)
+トップページは `/`、新選組をテーマにした旗艦製品「誠コレクション」は `/makoto/` です。トップナビの「誠コレクション」からも移動できます。
 
-```bash
-npm run build    # → out/ に出力
-```
+## Azure Static Web Apps
 
-`next.config.js` で `output: 'export'` と `images: { unoptimized: true }` を設定済み。
+GitHub連携でStatic Web Appを作成し、発行されたデプロイトークンをリポジトリシークレット `AZURE_STATIC_WEB_APPS_API_TOKEN_WONDERFUL_CLIFF_0AC76A400` に登録してください。`main` へのpushで `.github/workflows/azure-static-web-apps-wonderful-cliff-0ac76a400.yml` がNode.js 20で `npm ci` と `npm run build` を実行し、`out/` をデプロイします。
 
-## Azure Static Web Apps へのデプロイ
+## ソース構成
 
-1. Azure Portal で Static Web App を作成(デプロイ元: GitHub、ビルドプリセット: Custom)
-2. 発行されたデプロイトークンを、GitHub リポジトリの Secrets に `AZURE_STATIC_WEB_APPS_API_TOKEN` として登録
-3. `main` ブランチへ push → `.github/workflows/azure-static-web-apps.yml` がビルド & デプロイ
+- `app/` — トップページと `/makoto/` のルート・メタデータ
+- `components/` — 蒸留所サイトの各セクションと `components/makoto/` の製品コンポーネント
+- `public/img/` — 蒸留所の画像。誠コレクションの画像は `public/img/makoto/`
+- `next.config.js` — 静的エクスポートと末尾スラッシュ付きURLを設定
 
-構成: `app_location: /`、`output_location: out`(GitHub Actions 内で `npm ci && npm run build` を実行後、`out/` をデプロイ)
-
-## 構成
-
-- `app/layout.tsx` — フォント(next/font/google: Shippori Mincho B1 / Cormorant Garamond / Zen Kaku Gothic New)、メタデータ
-- `app/page.tsx` — セクション構成(Hero → Concept → Distillery&Bar/Shop → Product → News → Register → Access)
-- `components/` — セクション別コンポーネント(Reveal: スクロール連動表示、Nav: 追従ナビ、RegisterForm: デモ送信)
-- `public/img/` — 画像(ヒーロー/清流/バー/ショップ)
-- 仮表記: 住所・徒歩分数・ニュース日付は開所時に確定する情報のためダミー(参照実装のまま)
+住所・徒歩分数・ニュース日付は開所時に確定する仮表記です。誠コレクションの画像は開発中のイメージで、度数・樽設計・価格・発売時期も予定です。
