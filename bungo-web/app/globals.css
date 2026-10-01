@@ -674,6 +674,7 @@ h3 {
 .spec {
   border-top: 1px solid var(--washi-2);
   margin: 0;
+  background: transparent;
 }
 
 .spec dl {
