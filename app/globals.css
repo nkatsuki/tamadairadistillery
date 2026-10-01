@@ -125,6 +125,8 @@ h2{font-family:var(--serif);font-weight:600;font-size:clamp(27px,4vw,42px);lette
 .series-feature:hover .series-feature-link{background:var(--gold);color:#14110A}
 .bungo-feature{border-color:rgba(201,162,74,.32);background:linear-gradient(105deg,rgba(168,56,43,.18),rgba(26,29,32,.92) 42%,rgba(34,56,79,.12))}
 .bungo-feature:hover{border-color:rgba(201,162,74,.7);background:linear-gradient(105deg,rgba(168,56,43,.24),rgba(26,29,32,.96) 42%,rgba(34,56,79,.18))}
+.arithmos-feature{border-color:rgba(211,178,115,.34);background:linear-gradient(105deg,rgba(178,58,44,.18),rgba(26,29,32,.92) 42%,rgba(201,143,61,.12))}
+.arithmos-feature:hover{border-color:rgba(236,217,168,.7);background:linear-gradient(105deg,rgba(178,58,44,.25),rgba(26,29,32,.96) 42%,rgba(201,143,61,.18))}
 .age-gate-distillery{background-color:rgba(8,10,12,.84);backdrop-filter:blur(8px)}
 .age-gate-distillery .age-gate-panel{background:var(--panel);border-color:var(--line-soft);color:var(--ink)}
 .age-gate-distillery .age-gate-copy,.age-gate-distillery .age-gate-decline{color:var(--muted)}

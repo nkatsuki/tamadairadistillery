@@ -75,9 +75,29 @@ export default function ProductPreview() {
             <span className="series-feature-mark" aria-hidden="true">文</span>
             <span className="series-feature-copy">
               <span className="series-feature-eyebrow">LITERARY SERIES</span>
-              <span className="series-feature-title">文豪シリーズ ── 多摩平文庫</span>
+              <span className="series-feature-title">文豪シリーズ ─ 多摩平文庫</span>
               <span className="series-feature-description">
                 七人の作家を、七つの樽に。日野台地の水から始まる全七編。
+              </span>
+            </span>
+            <span className="series-feature-link">
+              シリーズを見る
+              <ArrowUpRight size={16} strokeWidth={1.5} aria-hidden="true" />
+            </span>
+          </a>
+        </Reveal>
+        <Reveal>
+          <a
+            href="/arithmos/"
+            className="series-feature arithmos-feature"
+            aria-label="数学シリーズ 数(アリトモス)の紹介を見る"
+          >
+            <span className="series-feature-mark" aria-hidden="true">数</span>
+            <span className="series-feature-copy">
+              <span className="series-feature-eyebrow">MATHEMATICAL SERIES</span>
+              <span className="series-feature-title">数学シリーズ「数（アリトモス）」</span>
+              <span className="series-feature-description">
+                7つの数学を、7本のウイスキーに。味わいは、証明される。
               </span>
             </span>
             <span className="series-feature-link">

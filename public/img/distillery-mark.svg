@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" fill="none">
+  <circle cx="22" cy="22" r="20" fill="#D4AF37" fill-opacity=".1" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="22" cy="22" r="16.5" stroke="#E9CE7A" stroke-opacity=".55" stroke-width=".9" />
+  <path d="M22 3v3M22 38v3M3 22h3M38 22h3" stroke="#D4AF37" stroke-width="1.1" />
+  <text x="22" y="30" text-anchor="middle" font-family="Yu Gothic UI, Meiryo UI, sans-serif" font-size="22" font-weight="700" fill="#E9CE7A">多</text>
+</svg>
