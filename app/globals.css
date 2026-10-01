@@ -114,19 +114,21 @@ h2{font-family:var(--serif);font-weight:600;font-size:clamp(27px,4vw,42px);lette
 .pcard p{color:var(--muted);font-size:13px;margin-top:16px;line-height:2.05;text-align:left}
 .pcard .timeline{margin-top:20px;padding-top:18px;border-top:1px solid var(--line-soft);font-size:11.5px;letter-spacing:.18em;color:var(--gold)}
 #news{background:var(--bg2)}
-.makoto-feature{display:grid;grid-template-columns:84px minmax(0,1fr) auto;align-items:center;gap:24px;margin-top:38px;padding:22px 28px;border:1px solid rgba(212,175,55,.28);background:linear-gradient(105deg,rgba(179,64,46,.14),rgba(26,29,32,.92) 42%,rgba(111,168,176,.07));transition:border-color .3s,transform .3s,background .3s}
-.makoto-feature:hover{border-color:rgba(212,175,55,.65);transform:translateY(-2px);background:linear-gradient(105deg,rgba(179,64,46,.2),rgba(26,29,32,.96) 42%,rgba(111,168,176,.1))}
-.makoto-feature-mark{position:relative;display:block;width:72px;font-family:var(--serif);font-size:64px;line-height:1;color:#E9CE7A}
-.makoto-feature-copy{display:flex;min-width:0;flex-direction:column;align-items:flex-start}
-.makoto-feature-eyebrow{color:var(--gold);font-family:var(--latin);font-size:10px;letter-spacing:.36em}
-.makoto-feature-title{margin-top:4px;font-family:var(--serif);font-size:23px;letter-spacing:.12em;color:var(--ink)}
-.makoto-feature-description{margin-top:5px;color:var(--muted);font-size:12px;line-height:1.8}
-.makoto-feature-link{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border:1px solid rgba(212,175,55,.5);color:var(--ink);font-size:12px;letter-spacing:.12em;white-space:nowrap;transition:background .3s,color .3s}
-.makoto-feature:hover .makoto-feature-link{background:var(--gold);color:#14110A}
+.series-feature{display:grid;grid-template-columns:84px minmax(0,1fr) auto;align-items:center;gap:24px;margin-top:38px;padding:22px 28px;border:1px solid rgba(212,175,55,.28);background:linear-gradient(105deg,rgba(179,64,46,.14),rgba(26,29,32,.92) 42%,rgba(111,168,176,.07));transition:border-color .3s,transform .3s,background .3s}
+.series-feature:hover{border-color:rgba(212,175,55,.65);transform:translateY(-2px);background:linear-gradient(105deg,rgba(179,64,46,.2),rgba(26,29,32,.96) 42%,rgba(111,168,176,.1))}
+.series-feature-mark{position:relative;display:block;width:72px;font-family:var(--serif);font-size:64px;line-height:1;color:#E9CE7A}
+.series-feature-copy{display:flex;min-width:0;flex-direction:column;align-items:flex-start}
+.series-feature-eyebrow{color:var(--gold);font-family:var(--latin);font-size:10px;letter-spacing:.36em}
+.series-feature-title{margin-top:4px;font-family:var(--serif);font-size:23px;letter-spacing:.12em;color:var(--ink)}
+.series-feature-description{margin-top:5px;color:var(--muted);font-size:12px;line-height:1.8}
+.series-feature-link{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border:1px solid rgba(212,175,55,.5);color:var(--ink);font-size:12px;letter-spacing:.12em;white-space:nowrap;transition:background .3s,color .3s}
+.series-feature:hover .series-feature-link{background:var(--gold);color:#14110A}
+.bungo-feature{border-color:rgba(201,162,74,.32);background:linear-gradient(105deg,rgba(168,56,43,.18),rgba(26,29,32,.92) 42%,rgba(34,56,79,.12))}
+.bungo-feature:hover{border-color:rgba(201,162,74,.7);background:linear-gradient(105deg,rgba(168,56,43,.24),rgba(26,29,32,.96) 42%,rgba(34,56,79,.18))}
 .age-gate-distillery{background-color:rgba(8,10,12,.84);backdrop-filter:blur(8px)}
 .age-gate-distillery .age-gate-panel{background:var(--panel);border-color:var(--line-soft);color:var(--ink)}
 .age-gate-distillery .age-gate-copy,.age-gate-distillery .age-gate-decline{color:var(--muted)}
-@media (max-width:760px){.makoto-feature{grid-template-columns:58px minmax(0,1fr);gap:16px;margin-top:30px;padding:18px 16px}.makoto-feature-mark{width:54px;font-size:48px}.makoto-feature-title{font-size:19px}.makoto-feature-description{font-size:11px}.makoto-feature-link{grid-column:1/-1;justify-content:center}}
+@media (max-width:760px){.series-feature{grid-template-columns:58px minmax(0,1fr);gap:16px;margin-top:30px;padding:18px 16px}.series-feature-mark{width:54px;font-size:48px}.series-feature-title{font-size:19px}.series-feature-description{font-size:11px}.series-feature-link{grid-column:1/-1;justify-content:center}}
 .news-list{margin-top:46px;border-top:1px solid var(--line-soft)}
 .news-item{display:grid;grid-template-columns:110px 130px 1fr 40px;gap:22px;align-items:center;padding:26px 8px;border-bottom:1px solid var(--line-soft);transition:background .3s;cursor:pointer}
 .news-item:hover{background:rgba(212,175,55,.05)}

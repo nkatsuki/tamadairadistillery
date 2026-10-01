@@ -8,7 +8,6 @@ const LINKS = [
   { href: '#product', label: 'プロダクト' },
   { href: '#news', label: 'ニュース' },
   { href: '#access', label: 'アクセス' },
-  { href: '/makoto/', label: '誠コレクション' },
 ];
 
 export default function Nav() {

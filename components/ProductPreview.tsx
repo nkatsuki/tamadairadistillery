@@ -49,18 +49,38 @@ export default function ProductPreview() {
         <Reveal>
           <a
             href="/makoto/"
-            className="makoto-feature"
+            className="series-feature"
             aria-label="誠コレクションの製品紹介を見る"
           >
-            <span className="makoto-feature-mark" aria-hidden="true">誠</span>
-            <span className="makoto-feature-copy">
-              <span className="makoto-feature-eyebrow">FLAGSHIP SERIES</span>
-              <span className="makoto-feature-title">誠コレクション</span>
-              <span className="makoto-feature-description">
+            <span className="series-feature-mark" aria-hidden="true">誠</span>
+            <span className="series-feature-copy">
+              <span className="series-feature-eyebrow">FLAGSHIP SERIES</span>
+              <span className="series-feature-title">誠コレクション</span>
+              <span className="series-feature-description">
                 新選組のふるさと・日野から生まれる、全12瓶の旗艦シリーズ。
               </span>
             </span>
-            <span className="makoto-feature-link">
+            <span className="series-feature-link">
+              シリーズを見る
+              <ArrowUpRight size={16} strokeWidth={1.5} aria-hidden="true" />
+            </span>
+          </a>
+        </Reveal>
+        <Reveal>
+          <a
+            href="/bungo/"
+            className="series-feature bungo-feature"
+            aria-label="文豪シリーズ、多摩平文庫の紹介を見る"
+          >
+            <span className="series-feature-mark" aria-hidden="true">文</span>
+            <span className="series-feature-copy">
+              <span className="series-feature-eyebrow">LITERARY SERIES</span>
+              <span className="series-feature-title">文豪シリーズ ── 多摩平文庫</span>
+              <span className="series-feature-description">
+                七人の作家を、七つの樽に。日野台地の水から始まる全七編。
+              </span>
+            </span>
+            <span className="series-feature-link">
               シリーズを見る
               <ArrowUpRight size={16} strokeWidth={1.5} aria-hidden="true" />
             </span>

@@ -1,0 +1,1 @@
+export { default } from '../bungo-web/components/VolumeSection';
